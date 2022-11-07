@@ -1,0 +1,6 @@
+config:
+  aws:region: us-west-2
+  container-aws-typescript-deployment-challenge:containerPort: "80"
+  container-aws-typescript-deployment-challenge:cpu: "512"
+  container-aws-typescript-deployment-challenge:memory: "128"
+  pulumi:template: container-aws-typescript
